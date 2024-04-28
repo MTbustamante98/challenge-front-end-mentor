@@ -140,8 +140,13 @@ li {
   main {
     grid-template-columns: 1fr;
     max-width: 375px;
-    height: 90%;
+    height: auto;
     border-radius: 30px 30px 0 0;
+    padding-bottom: 24px;
+  }
+
+  .result-container {
+    height: auto;
   }
 
   .primary-text {
