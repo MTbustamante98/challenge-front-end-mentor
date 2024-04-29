@@ -20,12 +20,13 @@ h1 {
 .circle-container {
   background: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0));
   border-radius: 100%;
-  padding: 10px 55px; 
+  width: 180px;
 }
 
 .circle-number-1 {
   display: block;
   margin-top: 32px;
+  text-align: center;
 }
 
 .circle-number-2 {
@@ -155,16 +156,17 @@ li {
   }
 
   .circle-container {
-    padding: 20px 40px;
+    width: 140px;
+    padding: 20px 0;
   }
 
   .circle-number-1 {
     font-size: 3rem;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .circle-number-2 {
-    margin-top: 5px;
+    margin-top: -10px;
   }
 
   .result-container h1 {
